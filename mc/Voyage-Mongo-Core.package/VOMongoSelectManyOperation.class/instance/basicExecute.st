@@ -1,3 +1,3 @@
 persistence
 basicExecute 	
-	^ repository execute: [ self select ]
+	^ self select
