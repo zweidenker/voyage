@@ -1,3 +1,3 @@
 execution
-basicExecute
+execute
 	operations do: #execute
