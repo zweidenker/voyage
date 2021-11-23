@@ -1,5 +1,5 @@
 execution
-execute
+basicExecute
 	| data result |
 	
 	"Selecting an instance of aClass should be done in the Mongo query, not here.

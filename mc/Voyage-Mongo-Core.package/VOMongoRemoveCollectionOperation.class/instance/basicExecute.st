@@ -1,5 +1,5 @@
 execution
-execute 
+basicExecute 
 	self repository writeDatabaseWith: [ :db | 
 		(repository collectionAt: queryClass inDatabase: db) drop.
 		

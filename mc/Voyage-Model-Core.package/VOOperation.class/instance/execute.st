@@ -1,3 +1,4 @@
 execution
 execute 
-	self subclassResponsibility 
+	^ repository execute: [ 
+		self basicExecute ]

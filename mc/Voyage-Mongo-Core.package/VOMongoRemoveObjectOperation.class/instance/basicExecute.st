@@ -1,5 +1,5 @@
 execution
-execute 
+basicExecute 
 	self repository writeDatabaseWith: [ :db |
 		(repository collectionAt: object class inDatabase: db) 
 			delete: { repository fieldRootId -> (repository keyOf: object)} asDictionary.

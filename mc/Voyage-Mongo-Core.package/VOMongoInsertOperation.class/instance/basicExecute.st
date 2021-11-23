@@ -1,3 +1,3 @@
 execution
-execute
+basicExecute
 	repository execute: [ self basicSave ]
